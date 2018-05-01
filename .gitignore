@@ -2,3 +2,5 @@ exports/
 *.bxl
 History/
 *.SchDocPreview
+__Previews/LevelSensor.PcbDocPreview
+*.LOG
