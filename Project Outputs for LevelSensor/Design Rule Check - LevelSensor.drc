@@ -1,27 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : U:\afbell\ME218C\LevelSensePCBProject\LevelSensor.PcbDoc
 Date     : 5/1/2018
-Time     : 2:32:28 PM
-
-WARNING: Zero hole size multi-layer pad(s) detected
-   Pad P0-0(2460mil,3150mil) on Multi-Layer on Net Pad0
-   Pad P1-0(2450mil,3450mil) on Multi-Layer on Net Pad1
-   Pad P7-0(2190mil,5450mil) on Multi-Layer on Net Pad7
-   Pad P6-0(2450mil,5090mil) on Multi-Layer on Net Pad6
-   Pad P5-0(2450mil,4750mil) on Multi-Layer on Net Pad5
-   Pad P4-0(2450mil,4450mil) on Multi-Layer on Net Pad4
-   Pad P3-0(2450mil,4150mil) on Multi-Layer on Net Pad3
-   Pad P2-0(2450mil,3800mil) on Multi-Layer on Net Pad2
-
-WARNING: Multilayer Pads with 0 size Hole found
-   Pad P0-0(2460mil,3150mil) on Multi-Layer
-   Pad P1-0(2450mil,3450mil) on Multi-Layer
-   Pad P7-0(2190mil,5450mil) on Multi-Layer
-   Pad P6-0(2450mil,5090mil) on Multi-Layer
-   Pad P5-0(2450mil,4750mil) on Multi-Layer
-   Pad P4-0(2450mil,4450mil) on Multi-Layer
-   Pad P3-0(2450mil,4150mil) on Multi-Layer
-   Pad P2-0(2450mil,3800mil) on Multi-Layer
+Time     : 10:45:08 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
 Rule Violations :0
@@ -45,8 +25,7 @@ Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Co
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
-   Violation between Hole Size Constraint: (152mil > 100mil) Pad MH0-27(2500mil,5490mil) on Multi-Layer Actual Hole Size = 152mil
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -58,8 +37,7 @@ Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (7.425mil < 10mil) Between Text "+" (2767.284mil,6844.488mil) on Top Overlay And Track (2740mil,6800mil)(2840mil,6800mil) on Top Overlay Silk Text to Silk Clearance [7.425mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
@@ -67,7 +45,19 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Waived Violation between Hole Size Constraint: (125mil > 100mil) Pad MH1-27(2300mil,3310mil) on Multi-Layer Actual Hole Size = 125milWaived by Drew Bell at 5/1/2018 10:44:43 PMsize okay with AP circuits
 
-Violations Detected : 2
-Waived Violations : 0
+   Waived Violation between Hole Size Constraint: (125mil > 100mil) Pad MH0-27(2680mil,5380mil) on Multi-Layer Actual Hole Size = 125milWaived by Drew Bell at 5/1/2018 10:43:39 PMsize okay with AP circuits
+
+Waived Violations :2
+
+Waived Violations Of Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Waived Violation between Silk To Silk Clearance Constraint: (7.425mil < 10mil) Between Text "+" (2767.284mil,6844.488mil) on Top Overlay And Track (2740mil,6800mil)(2840mil,6800mil) on Top Overlay Silk Text to Silk Clearance [7.425mil]Waived by Drew Bell at 5/1/2018 10:44:13 PMstandard silk screen design
+
+Waived Violations :1
+
+
+Violations Detected : 0
+Waived Violations : 3
 Time Elapsed        : 00:00:01
