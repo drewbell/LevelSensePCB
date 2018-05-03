@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : U:\afbell\ME218C\LevelSensePCBProject\LevelSensor.PcbDoc
-Date     : 5/1/2018
-Time     : 10:45:08 PM
+Date     : 5/2/2018
+Time     : 5:35:47 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
 Rule Violations :0
@@ -25,7 +25,9 @@ Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Co
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
-Rule Violations :0
+   Violation between Hole Size Constraint: (125mil > 100mil) Pad MH1-27(2750mil,3175mil) on Multi-Layer Actual Hole Size = 125mil
+   Violation between Hole Size Constraint: (125mil > 100mil) Pad MH0-27(2250mil,5375mil) on Multi-Layer Actual Hole Size = 125mil
+Rule Violations :2
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -45,19 +47,7 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
-Waived Violations Of Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
-   Waived Violation between Hole Size Constraint: (125mil > 100mil) Pad MH1-27(2300mil,3310mil) on Multi-Layer Actual Hole Size = 125milWaived by Drew Bell at 5/1/2018 10:44:43 PMsize okay with AP circuits
 
-   Waived Violation between Hole Size Constraint: (125mil > 100mil) Pad MH0-27(2680mil,5380mil) on Multi-Layer Actual Hole Size = 125milWaived by Drew Bell at 5/1/2018 10:43:39 PMsize okay with AP circuits
-
-Waived Violations :2
-
-Waived Violations Of Rule : Silk to Silk (Clearance=10mil) (All),(All)
-   Waived Violation between Silk To Silk Clearance Constraint: (7.425mil < 10mil) Between Text "+" (2767.284mil,6844.488mil) on Top Overlay And Track (2740mil,6800mil)(2840mil,6800mil) on Top Overlay Silk Text to Silk Clearance [7.425mil]Waived by Drew Bell at 5/1/2018 10:44:13 PMstandard silk screen design
-
-Waived Violations :1
-
-
-Violations Detected : 0
-Waived Violations : 3
-Time Elapsed        : 00:00:01
+Violations Detected : 2
+Waived Violations : 0
+Time Elapsed        : 00:00:00
