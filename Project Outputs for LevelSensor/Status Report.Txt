@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LevelSensor.PrjPcb]
+   Generated File[LevelSensor.GTL]
+   Generated File[LevelSensor.GBL]
+   Generated File[LevelSensor.GPB]
+   Generated File[LevelSensor.GPT]
+   Generated File[LevelSensor.GTO]
+   Generated File[LevelSensor.GTS]
+   Generated File[LevelSensor.GBS]
+   Generated File[LevelSensor.GBO]
+   Generated File[LevelSensor.GKO]
+   Generated File[LevelSensor.GM1]
+   Generated File[LevelSensor.RUL]
+   Generated File[LevelSensor.EXTREP]
+   Generated File[LevelSensor.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 5:58:50 PM On 5/2/2018
