@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : U:\afbell\ME218C\LevelSensePCBProject\LevelSensor.PcbDoc
-Date     : 5/2/2018
-Time     : 5:52:52 PM
+Date     : 5/20/2018
+Time     : 4:54:12 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
 Rule Violations :0
@@ -15,19 +15,17 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=20mil) (Max=30mil) (Preferred=25mil) (InNet('+5V')|InNet('GND'))
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=20mil) (Max=30mil) (Preferred=25mil) (InNet('+5V')| InNet('GND'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
-   Violation between Hole Size Constraint: (125mil > 100mil) Pad MH1-27(2750mil,3175mil) on Multi-Layer Actual Hole Size = 125mil
-   Violation between Hole Size Constraint: (125mil > 100mil) Pad MH0-27(2250mil,5375mil) on Multi-Layer Actual Hole Size = 125mil
-Rule Violations :2
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=200mil) (All)
+Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -48,6 +46,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 2
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
