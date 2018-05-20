@@ -1,22 +1,12 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [LevelSensor.PrjPcb]
-   Generated File[LevelSensor.GTL]
-   Generated File[LevelSensor.GBL]
-   Generated File[LevelSensor.GPB]
-   Generated File[LevelSensor.GPT]
-   Generated File[LevelSensor.GTO]
-   Generated File[LevelSensor.GTS]
-   Generated File[LevelSensor.GBS]
-   Generated File[LevelSensor.GBO]
-   Generated File[LevelSensor.GKO]
-   Generated File[LevelSensor.GM1]
-   Generated File[LevelSensor.RUL]
-   Generated File[LevelSensor.EXTREP]
-   Generated File[LevelSensor.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [LevelSensor.PrjPcb]
+   Generated File[LevelSensor.TXT]
+   Generated File[LevelSensor.LDP]
+   Generated File[LevelSensor.DRR]
 
 
-Files Generated   : 13
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 5:58:50 PM On 5/2/2018
+Finished Output Generation At 1:59:50 PM On 5/3/2018
