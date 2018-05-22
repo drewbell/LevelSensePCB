@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : U:\afbell\ME218C\LevelSensePCBProject\LevelSensor.PcbDoc
-Date     : 5/20/2018
-Time     : 4:54:12 PM
+Date     : 5/21/2018
+Time     : 7:25:22 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
 Rule Violations :0
@@ -15,10 +15,10 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=20mil) (Max=30mil) (Preferred=25mil) (InNet('+3.3V')    | InNet('GND'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=20mil) (Max=30mil) (Preferred=25mil) (InNet('+5V')| InNet('GND'))
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
@@ -48,4 +48,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
