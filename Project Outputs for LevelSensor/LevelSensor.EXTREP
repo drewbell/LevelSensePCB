@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: LevelSensor.GBR   5/2/2018  5:58:47 PM
+Gerber File Extension Report For: LevelSensor.GBR   5/22/2018  9:26:36 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -8,12 +8,8 @@ Layer Extension     Layer Description
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
 .GBL                Bottom Layer                            
-.GPB                Bottom Pad Master                       
-.GPT                Top Pad Master                          
 .GTO                Top Overlay                             
 .GTS                Top Solder                              
 .GBS                Bottom Solder                           
-.GBO                Bottom Overlay                          
-.GKO                Keep-Out Layer                          
 .GM1                Mechanical 1                            
 ------------------------------------------------------------------------------------------

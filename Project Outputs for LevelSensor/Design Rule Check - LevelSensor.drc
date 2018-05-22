@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : U:\afbell\ME218C\LevelSensePCBProject\LevelSensor.PcbDoc
 Date     : 5/22/2018
-Time     : 9:01:00 AM
+Time     : 9:24:16 AM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
 Rule Violations :0
@@ -37,11 +37,7 @@ Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (7.5mil < 10mil) Between Text "C2" (2300mil,6860mil) on Top Overlay And Track (2315mil,6860mil)(2315mil,7055mil) on Top Overlay Silk Text to Silk Clearance [7.5mil]
-   Violation between Silk To Silk Clearance Constraint: (8.068mil < 10mil) Between Text "C2" (2300mil,6860mil) on Top Overlay And Track (2315mil,6860mil)(2415mil,6860mil) on Top Overlay Silk Text to Silk Clearance [8.068mil]
-   Violation between Silk To Silk Clearance Constraint: (7.313mil < 10mil) Between Text "C1" (2140mil,6860mil) on Top Overlay And Track (2155mil,6855mil)(2155mil,7055mil) on Top Overlay Silk Text to Silk Clearance [7.313mil]
-   Violation between Silk To Silk Clearance Constraint: (9.892mil < 10mil) Between Text "C1" (2140mil,6860mil) on Top Overlay And Track (2155mil,6855mil)(2255mil,6855mil) on Top Overlay Silk Text to Silk Clearance [9.892mil]
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
@@ -49,7 +45,17 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Waived Violation between Silk To Silk Clearance Constraint: (7.5mil < 10mil) Between Text "C2" (2300mil,6860mil) on Top Overlay And Track (2315mil,6860mil)(2315mil,7055mil) on Top Overlay Silk Text to Silk Clearance [7.5mil]Waived by Drew Bell at 5/22/2018 9:01:21 AM
 
-Violations Detected : 4
-Waived Violations : 0
-Time Elapsed        : 00:00:01
+   Waived Violation between Silk To Silk Clearance Constraint: (8.068mil < 10mil) Between Text "C2" (2300mil,6860mil) on Top Overlay And Track (2315mil,6860mil)(2415mil,6860mil) on Top Overlay Silk Text to Silk Clearance [8.068mil]Waived by Drew Bell at 5/22/2018 9:01:17 AM
+
+   Waived Violation between Silk To Silk Clearance Constraint: (7.313mil < 10mil) Between Text "C1" (2140mil,6860mil) on Top Overlay And Track (2155mil,6855mil)(2155mil,7055mil) on Top Overlay Silk Text to Silk Clearance [7.313mil]Waived by Drew Bell at 5/22/2018 9:01:10 AM
+
+   Waived Violation between Silk To Silk Clearance Constraint: (9.892mil < 10mil) Between Text "C1" (2140mil,6860mil) on Top Overlay And Track (2155mil,6855mil)(2255mil,6855mil) on Top Overlay Silk Text to Silk Clearance [9.892mil]Waived by Drew Bell at 5/22/2018 9:01:06 AM
+Waived Violations :4
+
+
+Violations Detected : 0
+Waived Violations : 4
+Time Elapsed        : 00:00:00

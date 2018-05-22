@@ -1,17 +1,19 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: LevelSensor.PcbDoc   5/3/2018  1:59:50 PM
+NCDrill File Report For: LevelSensor.PcbDoc   5/22/2018  9:26:12 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
 ASCII RoundHoles File : LevelSensor.TXT
+EIA File   : LevelSensor.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      28mil (0.711mm)                                           Round             20        PTH        3.45inch (87.51mm)
-T2      35mil (0.889mm)                                           Round             27        PTH        3.50inch (88.92mm)
+T1      28mil (0.711mm)                                           Round             22        PTH        2.79inch (70.97mm)
+T2      35mil (0.889mm)                                           Round             24        PTH        3.48inch (88.49mm)
 T3      38mil (0.965mm)                                           Round             9         PTH        2.67inch (67.94mm)
-T4      125mil (3.175mm)                                          Round             2         PTH        2.26inch (57.31mm)
+T4      42mil (1.067mm)                                           Round             4         PTH        0.30inch (7.62mm)
+T5      125mil (3.175mm)                                          Round             2         PTH        2.20inch (55.88mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              58
+Totals                                                                              61
 
 Total Processing Time (hh:mm:ss) : 00:00:00
